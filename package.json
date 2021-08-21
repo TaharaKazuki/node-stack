@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
   "dependencies": {
     "typescript": "^4.3.5"
   },
@@ -10,6 +13,7 @@
   "author": "田原 一樹 <ssp0727.lnc@gmail.com>",
   "devDependencies": {
     "@tsconfig/node14": "^1.0.1",
-    "@types/node": "^16.7.1"
+    "@types/node": "^16.7.1",
+    "rimraf": "^3.0.2"
   }
 }
