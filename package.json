@@ -1,0 +1,8 @@
+{
+  "name": "node-stack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": "git@github.com:TaharaKazuki/node-stack.git",
+  "author": "田原 一樹 <ssp0727.lnc@gmail.com>"
+}
